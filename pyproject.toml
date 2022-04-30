@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "relay_strawberry_async_sqlalchemy"
+version = "0.1.0"
+description = ""
+authors = ["vamshi aruru <vamshiaruru0@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+fastapi = "^0.75.2"
+strawberry-graphql = {extras = ["fastapi"], version = "^0.109.1"}
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+aiodataloader = "^0.2.1"
+asyncpg = "^0.25.0"
+SQLAlchemy = "^1.4.36"
+alembic = "^1.7.4"
+graphql-relay = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

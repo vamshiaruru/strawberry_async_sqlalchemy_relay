@@ -1,0 +1,3 @@
+"""
+Has rest routes
+"""

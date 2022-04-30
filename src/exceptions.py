@@ -1,0 +1,2 @@
+class InvalidPaginationArgsError(Exception):
+    pass
