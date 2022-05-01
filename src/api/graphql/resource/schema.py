@@ -34,5 +34,5 @@ class Query:
         _data = await helper.paginate(query=query, db=db)
         _data["nodes"] = await ResourceByIdLoader(info.context).load_many(
             _node[0] for _node in _data["nodes"]
-        )
+        ) # _node[0] because _node is of form (id,).
         return helper.build_connection(**_data)
