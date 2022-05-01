@@ -116,6 +116,8 @@ I have made changes in the validation rule so that `first` and `last` are used a
 ## Conclusion
 So that is it. When I first started on working on a project using fastapi, strawberry, sqlalchemy (async) with relay style pagination, clean way of handling dataloaders and sorters/filters, I had to get information from a lot of different sources and do a lot of research. So, I made this demo so that all the information is collected in one place. Hopefully the ideas here help someone out there and save a bit of time.
 
+Huge thanks to the kind folks like @patrick.py and @andrewingram on strawberry discord who answered my questions and helped me out!
+
 
 ```
 
